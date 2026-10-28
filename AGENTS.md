@@ -1,4 +1,13 @@
-# [App Name]
+# Arc Goods
+
+## Deployment
+
+- ArcShop (Arc Testnet): 0xbBfa1b7547C6b22Eb4551a81776B8cb107b82a15 (set as `VITE_SHOP_ADDRESS` in `.env`).
+- Owner and payout wallet: 0xb7e8cbec6a17afdfbb44737144794c8c9cb84718 (user's Circle developer-controlled wallet, id a0f974af-dcbe-5ba0-977f-c1bfdfbadf0e).
+- Deployed via CREATE2 factory 0x59b03f80547a1f5942a2517c1cc0d62b761e8cfa. Metadata: `contracts/contract-metadata/ArcShop.json`.
+- Catalog ids 1..8 are seeded onchain; names and icons live in `src/lib/shop.ts`. Prices always come from the contract.
+
+# (original template notes)
 
 > Built with Arc Studio - money-powered apps in minutes
 
